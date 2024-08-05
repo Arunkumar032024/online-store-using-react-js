@@ -13,7 +13,7 @@ export default function Navbar() {
         if (window.innerWidth > 640) {
             setSearch(true)
         }
-    })
+    }, [])
     return (
         <nav className="flex justify-between items-center p-4 relative border-b-[1px] border-b-rose-200">
             <div className="left-div">
